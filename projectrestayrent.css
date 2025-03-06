@@ -1,0 +1,81 @@
+body{
+    margin: auto;
+    padding: auto;
+   
+}
+#restaurenthead{
+    background-image: url(background.webp);
+    padding: 20px;
+}
+#resnav{
+    background-color: darkseagreen;
+    height: 70px;
+    width: 100%;
+}
+#searchbar{
+    
+    float:inline-start;
+   margin-top:10px ;
+    margin-left: 300px;
+   
+    
+
+}
+#ressearch{
+    text-align: center;
+    height: 50px;
+    width: 500px;
+}
+#ressearch:hover{
+    background-color: blanchedalmond;
+}
+#insub{
+    height: 50px;
+     border-radius: 10px;
+}
+#insub:hover{
+    background-color: blanchedalmond;
+}
+#navbar{
+   
+   float: right;
+   margin-right: 10px;
+    
+}
+#navli{
+    display: flex;
+    margin: 5px;
+    list-style: none;
+}
+#navli li{
+    
+    border: 1px solid;
+    padding: 20px;
+}
+#navli li:hover{
+    background-color: bisque;
+    color: black;
+}
+#navli  a{
+    text-decoration: none;}
+#resform{
+    border: 1px solid;
+    border-radius: 10px;
+    float:left;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+#resform form input{
+    margin: 8px;
+    padding: 10px;
+}
+section#resdetails{
+    float: right;
+    width: 60%;
+    border: 1px solid black;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}

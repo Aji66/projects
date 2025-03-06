@@ -1,0 +1,349 @@
+body{
+    margin: auto;
+    padding: auto;
+}
+header#itemshead{
+    background-image: url(background.webp);
+    border: 0.5px solid black;
+    height: 130px;
+    width: 100%;
+    align-items: left;
+    
+}
+#itemshead h1{
+    margin: 40px;
+    text-align: left;
+}
+#nav1{
+    height: 80px;
+    width: 100%;
+   display:inline-flex;
+   
+   background-color: rgb(250, 155, 38);
+   opacity: 70%;
+   
+   
+}
+div#itemsearch{
+    margin: 20px;
+    display: inline-flex;
+
+    
+}
+#searchbar{
+    width: 350px;
+    height: 35px;
+    margin-left: 50px;
+    
+}
+#location{
+    margin: 4px;
+    height: 35px;
+    width: 200px;
+}
+#location:active{
+    border: none;
+    background-color:antiquewhite;
+}
+div#itemdiv{
+    margin-left: 20%;
+   
+    
+    
+   
+    
+    
+}
+#phonelabel{
+    text-align: center;
+    font-size: 20px;
+   
+}
+#phone_number{
+    margin: 10px;
+    height: 20px;
+    max-width: 20em;
+    border-radius :5px; 
+}
+#phone{
+    display: none;
+}
+
+
+
+/*  Section cart not completed  */
+#cartd{
+    
+   background-image: url(pngtree-various-fruits-and-ingredients-laid-out-on-a-table-picture-image_3054212.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+   height: 75em;
+   width: 30em;
+   position: absolute;
+   top: 0;
+   right: 0;
+   overflow: scroll;
+   text-align: center;
+  
+ 
+}
+#cartd::-webkit-scrollbar{
+    display: none;
+}
+
+
+#carth{
+    background-color: rgb(0, 0, 0);
+    color:greenyellow;
+   border: 1px solid black;
+    max-height: 40px;
+    width: 160px;
+    margin: 10px;
+    text-align: center;
+   
+    
+}
+#cartd #closebtn{
+    background-color: bisque;
+   position: fixed;
+   top: 10px;
+   right: 10px;
+   border: none;
+   border-radius: 40px;
+}
+#cartlast{
+    border: 1px solid black;
+    background-color: beige;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+#cartgo{
+    float: left;
+    text-align: center;
+    margin: 2px;
+    margin-left: 20px;
+    height: 90%;
+    width: 40%;
+    background-color: coral;
+}
+#cartlast #amount{
+    border: 1px solid;
+    background-color: coral; 
+    text-align: center;
+    margin: 2px;
+    margin-left: 20px;
+    height: 90%;
+    width: 40%;
+}
+
+/* cart items */
+
+div#cartd  ul#itemli{
+    text-align: center;
+    display: block;
+    list-style: disc;
+}
+div#cartd  ul#itemli li{
+    font-size:20px;
+    font-weight: 400;
+    color: chartreuse;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+}
+/*  */
+
+
+section#offersec0{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+#offerotp{
+   
+    text-align: center;
+    
+}
+#offertitle{
+   text-align: center;
+   color: red;
+   font-size: 50px;
+}
+
+
+
+#offers{
+    
+    display: flex;
+}
+.offeritms{
+
+    text-align: center;
+    height: 24em;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 30em;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow:5px,1px gray;
+    background-image:url('newyearoffer.jpg' ) ;
+    background-size: cover;
+    
+}
+.fooerimgs{
+    width: 15em;
+}
+.offeritms:active{
+    height:20em ;
+}
+.ofrheadings{
+    font-size:2em;
+    color: chartreuse;
+    background-color: crimson;
+}
+.ofrdescrib{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+#itemdiv ul{
+    display:flex;
+    margin: auto;
+    padding: 20px;
+    list-style: none;
+   
+   
+}
+#itemdiv ul  a{
+    text-decoration: none;
+    color: rgb(15, 10, 10);
+}
+#itemdiv ul li{
+   
+    padding: 15px;
+    border: 1px solid;
+    color: rgb(15, 10, 10);
+     
+    text-decoration: none;
+    background-color: brown;
+}
+#itemdiv ul li:hover{
+    background-color:rgb(250, 155, 38);
+    color: black;
+}
+
+
+#bstitems{
+    text-align: center;
+    display: flex;
+    overflow-x: scroll ;
+   
+    
+    
+}
+#bstitems::-webkit-scrollbar{
+    display: none;
+}
+
+.items{
+    display:inline-block;
+    padding: 5px;
+     
+
+}
+#bstrestaurents{
+    text-align: center;
+    margin: 10px;
+}
+.rest{
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+  
+}
+.rest:hover{
+    background-color: bisque;
+}
+.rest h4{
+    color: crimson;
+    font-size: 20px;
+}
+.resimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+ul.ul1 {
+list-style: none;
+}
+ul.ul1 li{
+    font-size: 15px;
+    color: brown;
+}
+section#foodsec{
+    text-align: center;
+    margin-top: 30px;
+
+}
+section#foodsec h2{
+    font-size: 50px;
+    color: red;
+}
+div#divitems{
+   display: inline-block;
+   text-align: center;
+   justify-content: center;
+}
+ div.fooditem{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    height: 200px;
+    box-shadow: 1px 1px brown;
+    background-color: burlywood;
+}
+div.fooditem:hover{
+    color: black;
+    background-color:bisque;
+}
+.itemimg{
+    height: 200px;
+    width: 200px;
+}
+.orderbtn{
+    background-color:springgreen;
+    margin-left: 30px;
+}
+.orderbtn:hover{
+    background-color: brown;
+}
+
+
+
+/*  */
+footer#footerlog1{
+    display: flex;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgba(255, 162, 0, 0.492);
+}
+#About{
+    margin-left: 500px;
+    padding-right: 100px;
+}
+.footerli{
+    list-style: none;
+}
+.footerli a{
+    text-decoration: none;
+}

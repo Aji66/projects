@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>items</title>
+    <script src="https://kit.fontawesome.com/871897995b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="projectitems.css">
+</head>
+<body >
+    <header id="itemshead">
+        <h1 style="color:crimson;">Food Delivery</h1>
+    </header>
+    <nav id="nav1">
+        <div id="itemsearch">
+            
+            <input type="text" id="searchbar">
+            <i class="fa-solid fa-magnifying-glass" ></i>
+            <input type="submit" style="margin-left: 5px;">
+            <input type="text" id="location" placeholder="Enter Your Location" style="border: none;">
+        </div>
+        <div id="itemdiv">
+            <ul>
+                <li id="car"  onclick="cartopen()">Cart</li>
+                <li><a href="">Profile</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href="projectlogin.html">Log out</a></li>
+            </ul>
+            
+            <!-- cart -->
+
+            <div id="cartd"  style="display: none;" >
+                <button   id="closebtn" onclick="cartclose()">X</button>
+               
+                <i class="fa-solid fa-xmark" style="float: right; margin: 15px;" id="clsbtn" onclick="cartclose()"></i>
+                <h2 id="carth">CART</h2>
+                <ul id="itemli"></ul>
+
+                <div id="cartlast">
+                    <button id="cartgo">Buy Now</button>
+                    <h4 id="amount"></h4>
+                </div>
+
+                    <!-- <div class="cartitms" > 
+                        <p id="itmnm1" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price"></p>
+                    </div>
+               
+
+                    <div class="cartitms"> 
+                        <p id="itmnm2" class="itmdetails" > hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm3" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm4" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm5" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm6" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm7" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm8" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm9" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm10" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm11" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm12" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm13" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm14" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm15" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm16" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+
+                    <div class="cartitms"> 
+                        <p id="itmnm17" class="itmdetails"> hi</p>
+                        <p id="from" class="itmdetails">hi</p>
+                        <p id="price" class="itmdetails"></p>
+                    </div>
+             -->
+            
+            
+            
+            
+            </div>
+
+
+        </div>
+    </nav>
+    <section id=" offersec0">
+        <h2 id="offertitle">New Year Special Offers</h2>
+        <div id="offers">
+        
+        <div class="offeritms" >
+            <h4 class="ofrheadings">Single Person</h4>
+            
+            <p class="ofrdescrib">buy a vouher for just RS 1499 and enjoy the best taste experience for 2 days.
+                This is valid only for one person. You can order any food you want for 3 times a Day.
+                You can buy the voucher by clicking the below button. Then you can type your Mobile Number then you will get an OTP.
+                when You are odering  Food there's Column Where you can enter the OTP for Conformation.
+            </p>
+            <button  class="ofrsub" onclick="offerclick('Single')">BUY</button>
+            
+        </div>
+
+        <div class="offeritms"  >  
+            <h4 class="ofrheadings">Couple</h4>
+            <p class="ofrdescrib">buy a vouher for just RS 1799 and enjoy the best taste experience for 2 days.This Offer is only valid for Couples / Two Persons.
+                Here You can order 6 meals a day. 3/person.
+                you can get the OTP from below by providing your Mobile Number
+            </p>
+            <button class="ofrsub"  onclick="offerclick('Couple')">BUY</button>
+        </div>
+        <div class="offeritms" >
+            <h4 class="ofrheadings">Family</h4>
+            <p class="ofrdescrib">buy a vouher for just RS 3000 and enjoy the best taste experience for 2 days.
+                Here we Provide 12 meals a day .3 meals/person for 4 people.
+                this offer is valid for family / 4 People
+            </p>
+            <button class="ofrsub" onclick="offerclick('Family')">BUY</button>
+        </div>
+       
+    </div>
+    <div id="offerotp">
+        <div id="phone">
+        <label for="phone_number" id="phonelabel" >Please Enter Your Phone Number</label><br>
+        <input type="tel" id="phone_number" maxlength="13" >
+        <button id="subm" onclick="rest()">submit</button>
+        </div>
+        <h2 id="co"></h2>
+        <h2 id="code">Happy New Year</h2>
+    </div>
+        
+    </section>
+    <section >
+        <h2 style="text-align: center; font-size: 50px ; color: red;">Order The Best Options</h3>
+        <div id="bstitems">
+            
+            <div class="items">
+                <img src="biriyani.png" style="height: 250px; width: 300px;">
+            <br>	<h3>Biriyani</h3>
+            </div >	
+            <div class="items">
+                <img src="pizza1.avif" alt="" style="height: 250px; width: 250px;">
+                <br><h3>Pizza</h3>
+            </div>
+            <div class="items">
+                <img src="istockphoto-1190330112-612x612.jpg" alt="pasta" id="homeimg" style="height: 250px; width: 250px;">
+                <br><h3>Meat</h3>
+            </div>
+            <div class="items">
+                <img src="burger1.png" alt="" style="height: 250px; width: 250px;">
+                <br><h3>Burger</h3>
+            </div>
+            <div class="items">
+                <img src="dosa.webp" alt="" style="height: 250px; width: 250px;">
+                <br><h3>Dosa</h3>
+            </div>
+            <div class="items">
+                <img src="meals.png" alt="" style="height: 250px; width: 250px;">
+                <br><h3>Meals</h3>
+            </div>
+            <div class="items">
+                <img src="chinese.webp" alt="" style="height: 250px; width: 250px;">
+                <br><h3>Chinese</h3>
+            </div>
+            <div class="items">
+                <img src="chicken.jpg" alt="" style="height: 250px; width: 250px;">
+                <br><h3>Chicken</h3>
+            </div> 
+            <div class="items"> 
+                <img src="fish.jpg" alt="" style="height: 250px; width: 250px;">
+                <br><h3>Sea Foods</h3>
+            </div>
+            <div class="items">
+                <img src="snacks.jpg" alt="" style="height: 250px; width: 250px;">
+                <br><h3>snacks</h3>
+            </div>
+        </div>
+    </section>
+    <div></div>
+    <section id="bstrestaurents">
+        <h2 style="color: red; font-size: 50px;">Best Restaurents in Town</h2>
+        <div class="rest">
+            <img src="pizza hut.jpg" alt="pizza hut" class="resimg"> 
+            <h4>Pizza Hut</h4>
+            <ul class="ul1">
+                <li>Delivery in 25 Mins</li>
+                <li>Banglore</li>
+                <li>Pizza,Burger,Coke</li>
+
+            </ul>
+        </div>
+        <div class="rest">
+            <img src="nehdi.avif" alt="Nehdi" class="resimg">
+            <h4>Nehdi</h4>
+            <ul class="ul1">
+                <li>Delivery in 45 Mins</li>
+                <li>Madiwala</li>
+                <li>Mandhi,Biriynani</li>
+            </ul>
+        </div>
+        <div class="rest">
+            <img src="burger king.jpg" alt="burger king" class="resimg">
+            <h4>Burger King</h4>
+            <ul class="ul1">
+                <li>Delivery in 30 Mins</li>
+                <li>Silk Board</li>
+                <li>Burger,Pizza,</li>
+            </ul>
+        </div>
+        <div class="rest">
+            <img src="kfc.jpg" alt="kfc" class="resimg">
+            <h4>KFC</h4>
+            <ul class="ul1">
+                <li>Delivery in 40 Mins</li>
+                <li>HSR Layout</li>
+                <li>Fried Chicken,Pizza</li>
+            </ul>
+        </div>
+        <div class="rest">
+            <img src="amma paradise.jpg" alt="" class="resimg">
+            <h4>Amma's Paradise</h4>
+            <ul class="ul1">
+                <li>Opens at 5 AM</li>
+                <li>Elecrtonic City Phase 2</li>
+                <li>Biriyani,Noodles,Fresh Juice</li>
+            </ul>
+        </div>
+        <div class="rest">
+            <img src="hey momos.webp" alt="momos" class="resimg">
+            <h4>Hey Momos</h4>
+            <ul class="ul1">
+                <li>Opens at 9 AM</li>
+                <li>Banglore</li>
+                <li>Momos,Noodles,Chinese items</li>
+            </ul>
+        </div>
+        <div class="rest">
+            <img src="paradise.png" alt="paradise" class="resimg">
+            <h4>Paradise</h4>
+
+            <ul class="ul1">
+                <li>Delivery in 20 Mins</li>
+                <li>JP Nagar</li>
+                <li>Biriyani,Meals,Dosa,Chinese</li>
+            </ul>
+        </div>
+        <div class="rest">
+            <img src="beijing bites.avif" alt=" " class="resimg">
+            <h4>Beijing Bites</h4>
+            <ul class="ul1">
+                <li>Delivery in 29 Mins</li>
+                <li>Banglore</li>
+                <li>Momos,Noodles,Fried Rice,Raman</li>
+            </ul>
+        </div>
+    </section>
+    <section id="foodsec">
+        <h2>Top Dishes</h2>
+        <div id="divitems">
+        <div class="fooditem" id="item1" >
+            <img src="itembiriyani.jpg" alt=""  class="itemimg">
+            <h4>Chicken Biriyani</h4>
+            <p>From Amma's paradise</p>
+            <p>Rs 200/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">4.5</i>
+            <button class="orderbtn" onclick="addtocart('Chicken Biriyani',200)">Order Now</button>
+
+
+        </div>
+        <div class="fooditem"  id="item2">
+            <img src="itemalfam.jpg" alt=""  class="itemimg">
+            <h4>Alfam</h4>
+            <p>Paru's Kitchen</p>
+            <p>Rs 400/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">3.0</i>
+            <button class="orderbtn" onclick="addtocart('Alfam',400)">Order Now</button>
+
+            
+        </div>
+        <div class="fooditem"  id="item3">
+            <img src="itemmandhi.jpg" alt=""  class="itemimg">
+            <h4>Mandhi</h4>
+            <p>Nehdi Mandhi</p>
+            <p>Rs 600/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">3.5</i>
+            <button class="orderbtn" onclick="addtocart('Mandhi',600)">Order Now</button>
+            
+        </div>
+        <div class="fooditem"  id="item4">
+            <img src="itemcharts.jpg" alt=""  class="itemimg">
+            <h4>Pani Poori</h4>
+            <p>kolkata Charts& Juice</p>
+            <p>Rs 100/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">4.0</i>
+            <button class="orderbtn" onclick="addtocart('Pani poori',100)">Order Now</button>
+            
+        </div>
+        <div class="fooditem"  id="item5">
+            <img src="itemdosa.jpg" alt=""  class="itemimg">
+            <h4>Masala Dosa</h4>
+            <p>From Amma's Paradise</p>
+            <p>Rs 70/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">4.5</i>
+            <button class="orderbtn" onclick="addtocart('Masala Dosa',70)">Order Now</button>
+        </div>
+        <div class="fooditem"  id="item6">
+            <img src="itemfriedchicken.jpg" alt=""  class="itemimg">
+            <h4>Fried Chicken</h4>
+            <p>KFC</p>
+            <p>Rs 450/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">3.7</i>
+            <button class="orderbtn" onclick="addtocart('Fried Chicken',450)">Order Now</button>
+        </div>
+        <div class="fooditem"  id="item7">
+            <img src="itemfriedrice.jpg" alt=""  class="itemimg">
+            <h4>Fried Rice</h4>
+            <p>From Beijing Bites</p>
+            <p>Rs 150/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">4.5</i>
+            <button class="orderbtn" onclick="addtocart('Fried Rice',150)">Order Now</button>
+        </div>
+        <div class="fooditem"  id="item8">
+            <img src="itemidly.webp" alt=""  class="itemimg">
+            <h4>Idly</h4>
+            <p>A2B</p>
+            <p>Rs 70/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">4.0</i>
+            <button class="orderbtn" onclick="addtocart(Idly,70)">Order Now</button>
+        </div>
+        <div class="fooditem"  id="item9">
+            <img src="itemmeals.webp" alt=""  class="itemimg">
+            <h4>Meals</h4>
+            <p>Achayan's Cafe</p>
+            <p>Rs 110/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">3.9</i>
+            <button class="orderbtn" onclick="addtocart('Meals',110)">Order Now</button>
+
+        </div>
+        <div class="fooditem"  id="item10">
+            <img src="itemmilkshake.jpg" alt=""  class="itemimg">
+            <h4>Milk Shake</h4>
+            <p>From Hotel Annapurneshwari</p>
+            <p>Rs 80/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">3.5</i>
+            <button class="orderbtn" onclick="addtocart('Milk Shake',80)">Order Now</button>
+
+        </div>
+        <div class="fooditem"  id="item11">
+            <img src="itemnoodles.jpg" alt=""  class="itemimg">
+            <h4>Chicken Noodles</h4>
+            <p>Beijing Bites</p>
+            <p>Rs 130/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">4.0</i>
+            <button class="orderbtn" onclick="addtocart('Chicken Noodles',130)">Order Now</button>
+
+        </div>
+        <div class="fooditem"   id="item12" onclick="offerclick()">
+            <img src="itemnrdosa.webp" alt=""  class="itemimg">
+            <h4>Dosa</h4>
+            <p> A2B</p>
+            <p>Rs 50/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">4.5</i>
+            <button class="orderbtn" onclick="addtocart('Dosa',50)">Order Now</button>
+
+        </div>
+        <div class="fooditem"  id="item13">
+            <img src="itempizza.jpg" alt=""  class="itemimg">
+            <h4>Pizza</h4>
+            <p>from Pizza Hut</p>
+            <p>Rs 200/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">3.5</i>
+            <button class="orderbtn" onclick="addtocart('Pizza',200)">Order Now</button>
+
+        </div>
+        <div class="fooditem"  id="item14">
+            <img src="itemramen.jpg" alt=""  class="itemimg">
+            <h4>Ramen</h4>
+            <p>Beijing Bites</p>
+            <p>Rs 160/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">4.0</i>
+            <button class="orderbtn" onclick="addtocart('Ramen',160)">Order Now</button>
+
+        </div>
+        <div class="fooditem"  id="item15">
+            <img src="itemshawarma.jpg" alt=""  class="itemimg">
+            <h4>Shawarma</h4>
+            <p>Al Taza</p>
+            <p>Rs 120/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">4.2</i>
+            <button class="orderbtn" onclick="addtocart('Shawarma',120)">Order Now</button>
+
+        </div>
+        <div class="fooditem"  id="item16">
+            <img src="itemsteak.jpg" alt="" class="itemimg">
+            <h4>Steak</h4>
+            <p>The Black Pearl</p>
+            <p>Rs 1200/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">3.5</i>
+            <button class="orderbtn" onclick="addtocart('steak',1200)">Order Now</button>
+
+        </div>
+        <div class="fooditem"  id="item17">
+            <img src="fishfry.webp" alt="" class="itemimg">
+            <h4>Fish Fry</h4>
+            <p>Garden Asian Restaurent</p>
+            <p>Rs 170/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">3.5</i>
+            <button class="orderbtn" onclick="addtocart('Fish Fry',170)">Order Now</button>
+
+        </div>
+        <div class="fooditem"  id="item18">
+            <img src="muttoncurry.webp" alt="" class="itemimg">
+            <h4>Mutton Curry</h4>
+            <p>EDO Restaurent</p>
+            <p>Rs 350/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">3.5</i>
+            <button class="orderbtn" onclick="addtocart('Mutton Curry',350)">Order Now</button>
+
+        </div>
+        <div class="fooditem"  id="item19">
+            <img src="itemvada.webp" alt="" class="itemimg">
+            <h4>Vada</h4>
+            <p>Amma's Paradise</p>
+            <p>Rs 30/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">3.5</i>
+            <button class="orderbtn" onclick="addtocart('Vada',30)">Order Now</button>
+
+        </div>
+        <div class="fooditem"  id="item20">
+            <img src="itempasta.jpg" alt="" class="itemimg">
+            <h4>Pasta</h4>
+            <p>The Green Path</p>
+            <p>Rs 150/-</p>
+            <i class="fa-solid fa-star" style="color: orange;">3.5</i>
+            <button class="orderbtn" onclick="addtocart('Pasta',150)">Order Now</button>
+
+        </div>
+
+        <div id="ord">
+           
+        </div>
+    </div>
+    </section>
+
+
+    <footer id="footerlog1">
+        <h1>Food Delivery</h1>
+        <div style="margin-left: 70px;"><h3> Social Media	</h3>
+            <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="www.x.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="www.google.com"><i class="fa-brands fa-google"></i></a>
+        </div>
+        <div id="About">
+            <ul>
+                <li  class="footerli"><a  href="">Who are We</a></li>
+                <li class="footerli"><a href="">Blog</a></li>
+                <li class="footerli"> <a href="">Contact Us</a></li>
+                <li class="footerli"><a href="">Career</a></li>
+            </ul>
+            
+        </div>
+        <div>
+            <ul>
+                <li class="footerli"><a href="">Add Restaurent</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="footerli"><a href="">privacy</a></li>
+                <li class="footerli"><a href="">Terms & Conditions</a></li>
+                <li class="footerli"><a href="">Secrity</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="projectitems.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scake=1.0">
+	<title> Registration </title>
+	<script src="https://kit.fontawesome.com/871897995b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+	<div>
+	<h1> Food ordering </h1> 
+	
+	</div>
+	
+</header>
+	<div id="nav">
+	<ul>
+		<i class="fa-solid fa-magnifying-glass"></i>
+		<li id="nav>Log In</li> 
+	</ul>
+	</div>
+</body>
+</html>

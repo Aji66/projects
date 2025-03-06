@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+    padding: auto;
+   
+
+}
+header{
+    background-color: rgb(54, 206, 118);
+    opacity: 70%;
+    padding: 30px;
+
+}
+#content{
+    
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
+#forgetform{
+ 
+    padding: 10px;
+    float: left;
+    margin: 10px;
+    height: 600px;
+    text-align: center;
+    
+}
+#forgetform label,input{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+#forgetform input:hover{
+    background-color:wheat;
+}
+#ad {
+    height: 610px;
+    width: 80%;
+   
+    margin: 10px;
+}
+#ad img{
+    height:610px ;
+    width: 100%;
+    border-radius: 10px;
+}
+.forsub{
+    width: 140px;
+     background-color: burlywood;
+}
+.forsub:hover{
+    background-color: wheat;
+}

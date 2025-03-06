@@ -1,0 +1,80 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-image: url(pngtree-various-fruits-and-ingredients-laid-out-on-a-table-picture-image_3054212.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+header#logheader {
+   place-content: left;
+   background-color: rgb(242, 155, 155);
+   padding: 10px;
+   opacity: 70%;
+}
+header #headerlog{
+    text-align: left;
+}
+div#loglogin{
+    
+    background-color: aqua;
+    width: 25em;
+    height: 30em;
+    box-sizing: border-box;
+    align-content: center;
+    text-align: center;
+    margin: 50px;
+    float: inline-start;
+    display: block;
+    border-radius: 25px;
+    opacity: 70%;
+    padding-top:
+}
+div#loglogin h2{
+    font-size: 3em;
+}
+.inputlogin{
+    opacity: 100%;
+    display: flexbox;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    color: rgb(14, 1, 1);
+    margin: 5px; 
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.inputlogin:hover{
+    background-color: burlywood;
+    color: black;
+}
+.signlog{
+text-decoration: none;
+margin: 5px;
+
+}
+.resub{
+    margin:5px;
+    height:30px ;
+    width: 100px;
+    background-color: rgb(136, 104, 83);
+    opacity: 50%;
+    color:rgb(0, 0, 0);
+}
+.resub:hover{
+    background-color: bisque;
+    color: black;
+}
+div#contentdiv{
+    background-color: bisque;
+    width: 50em;
+    float: inline-end;
+    margin: 50px;
+    height: 27em;
+    border-radius: 20px;
+    padding: 30px;
+    opacity: 70%;
+}

@@ -1,0 +1,80 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-image: url(signbimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#signheader{
+    place-content: left;
+   background-color: rgb(242, 155, 155);
+   padding: 10px;
+   opacity: 70%;
+}
+#signin{
+   display: flex;
+    align-items: center;
+    margin: 50px;
+
+}
+div#signform{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color:aqua;
+    height: 500px;
+    width: 450px;
+    margin-left: 30px;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+input.signinput{
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    color: black;
+}
+input.signinput:hover{
+    background-color: rgb(120, 194, 194);
+}
+input.resub1{
+    height: 30px;
+    width: 100px;
+    margin: 5px; 
+    background-color: rgb(215, 149, 107);
+    color: black;
+}
+input.resub1:hover{
+    background-color: rgb(100, 82, 58);
+    color: black;
+}
+#signinsign a{
+    text-decoration:none ;
+}
+#signhead{
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color:beige;
+    padding: 30px;
+    margin-left: 190px;
+    height: 450px;
+    width: 750px;
+   opacity: 80%;
+}
+#signhead1{
+    float: inline-end;
+}
+div#signhead1 img{
+    float: inline-start;
+    opacity: 100%;
+    float: inline-start;
+    height: 300px;
+    width: 250px;
+
+}

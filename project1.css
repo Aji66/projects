@@ -1,0 +1,185 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+div#icondiv{
+    border: 1px  solid red;
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    align-content:center;
+    opacity: 90%;
+    
+
+}div#icondiv h1{
+   text-align: left;
+    font: size 80px;;
+    color:rgb(0, 0, 0);
+    margin-left: 30px;
+ 
+}
+    
+div#nav{
+    border: 1px solid grey;
+    background-color:darkkhaki;
+    opacity: 80%;
+    align-content: center;
+    height: 80px;
+}
+ul#navlog{
+    display:flex ;
+    margin-right: 20px;
+    padding: 0;
+    
+    
+}
+li.lognav{
+    border: 1px solid black;
+    background-color: rgb(146, 98, 98);
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size:large;
+   margin: 0px;
+   text-align: right;
+   height: max-content;
+}
+li.lognav:hover{
+    background-color: rgb(0, 0, 0);
+   
+}
+li.lognav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#itemssec{
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+.items{
+   display: inline-block;
+    height: 50px;
+}
+.items:hover{
+    color: burlywood;
+}
+div#About{
+    margin: 40px;
+    padding: 30px;
+    
+}
+div#About h3{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+div#About p{
+    font-size: 25px;
+    text-align: center;
+}
+div#divsearchlogin{
+   padding-right: 300px;
+
+}
+i#searchiconlogin{
+    size: 2em;
+   margin-right: 10px;
+
+}
+input#searchlogin{
+    width: 450px;
+    height: 40px;
+    border-radius:5px;
+
+}
+#sslogin{
+    height: 40px;
+    border-radius: 10px;
+    
+}
+#bst{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0;
+   
+}
+#bstrestaurents{
+    border: 1px dotted;
+    border-radius: 5px;
+    background-image: url(pexels-photo-1640777.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    text-align: center;
+   
+}
+.bstheading{
+    background-color: aqua;
+    margin: 30px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border-style: outset;
+}
+#bstdineouts{
+    border: 1px dotted;
+    border-radius: 5px;
+    background-image: url(gettyimages-1045891638-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    text-align: center;
+}
+#bstchinese{
+    border: 1px dotted;
+    border-radius: 5px;
+    background-image: url(images);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    text-align: center;
+}
+footer#footerlog1{
+    display: flex;
+
+    padding: 30px;
+    background-color: rgba(255, 162, 0, 0.492);
+}
+.footerli{
+    list-style: none;
+}
+.footerli a{
+    text-decoration: none;
+}
+#b1{
+    background-color: burlywood;
+}
+ul#res1{
+    
+    margin: 10px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+   
+}
+ul#res1 li:hover{
+    background-color: burlywood;
+    height:25px ;
+    width: 300px;
+}
+
+.bstres{
+    margin: 20px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+    
